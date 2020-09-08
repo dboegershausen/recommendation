@@ -2,8 +2,8 @@
 Projeto backend utilizando a stack java __spring boot__, para o recomendação de biciletas e acessórios.
 
 ## Features
-- Recomendação de Bicicletas :heavy_check_mark:
-- Recomendação de Acessórios :heavy_check_mark:
+- Recomendação de Bicicletas
+- Recomendação de Acessórios
 
 ## Build e run dos testes :computer:
 Para efetuar o build e o run dos testes iremos utilizar o __maven__.
