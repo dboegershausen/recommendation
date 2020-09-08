@@ -15,4 +15,12 @@ public class LoginRequest {
         return new UsernamePasswordAuthenticationToken(email, password);
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
 }

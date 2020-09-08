@@ -1,5 +1,7 @@
 package com.recommender.api.v1.dto;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class TokenResponse {
 
     private String tokenType;
@@ -10,4 +12,11 @@ public class TokenResponse {
         this.token = token;
     }
 
+    public String getTokenType() {
+        return tokenType;
+    }
+
+    public String getToken() {
+        return token;
+    }
 }
