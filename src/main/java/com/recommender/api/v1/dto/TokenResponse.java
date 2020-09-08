@@ -10,12 +10,4 @@ public class TokenResponse {
         this.token = token;
     }
 
-    public String getToken() {
-        return token;
-    }
-
-    public String getTokenType() {
-        return tokenType;
-    }
-
 }

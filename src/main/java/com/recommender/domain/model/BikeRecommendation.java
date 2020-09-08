@@ -22,10 +22,6 @@ public class BikeRecommendation {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public Bike getBike() {
         return bike;
     }
@@ -42,11 +38,8 @@ public class BikeRecommendation {
         this.input = input;
     }
 
-    public User getUser() {
-        return user;
-    }
-
     public void setUser(User user) {
         this.user = user;
     }
+
 }

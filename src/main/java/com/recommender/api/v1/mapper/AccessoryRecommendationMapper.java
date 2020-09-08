@@ -21,10 +21,6 @@ public class AccessoryRecommendationMapper {
         return modelMapper.map(input, AccessoryInput.class);
     }
 
-    public AccessoryInputResponse toInputResponse(AccessoryInput input) {
-        return modelMapper.map(input, AccessoryInputResponse.class);
-    }
-
     public AccessoryRecommendationResponse toRecommendationResponse(AccessoryRecommendation recommendation) {
         return modelMapper.map(recommendation, AccessoryRecommendationResponse.class);
     }

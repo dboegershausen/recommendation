@@ -20,10 +20,6 @@ public class BikeService {
     @Autowired
     private BikeRepository bikeRepository;
 
-    public List<Bike> list() {
-        return bikeRepository.findAll();
-    }
-
     public List<Bike> topBikes(Integer top) {
         return bikeRepository.findTopBikes(top);
     }

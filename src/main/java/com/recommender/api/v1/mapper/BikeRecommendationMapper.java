@@ -3,7 +3,6 @@ package com.recommender.api.v1.mapper;
 import com.recommender.api.v1.dto.BikeRecommendationRequest;
 import com.recommender.api.v1.dto.BikeRecommendationResponse;
 import com.recommender.api.v1.dto.BikeResponse;
-import com.recommender.api.v1.dto.BikeInputResponse;
 import com.recommender.domain.model.Bike;
 import com.recommender.domain.model.BikeRecommendation;
 import com.recommender.domain.model.BikeInput;
@@ -24,10 +23,6 @@ public class BikeRecommendationMapper {
 
     public BikeInput toInputEntity(BikeRecommendationRequest input) {
         return modelMapper.map(input, BikeInput.class);
-    }
-
-    public BikeInputResponse toInputResponse(BikeInput input) {
-        return modelMapper.map(input, BikeInputResponse.class);
     }
 
     public BikeResponse toBikeResponse(Bike bike) {
